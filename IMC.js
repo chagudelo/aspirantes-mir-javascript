@@ -1,5 +1,5 @@
 function bmi(weight, height) {
-  if (height > 0) {
+  if (weight > 0 && height > 0) {
     return weight / (height * height);
   } else {
     return 0;
