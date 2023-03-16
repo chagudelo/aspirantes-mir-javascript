@@ -1,4 +1,5 @@
 function join(arreglo) {
+  if (!arreglo.length) return "";
   let cadena = "";
 
   for (let i = 0; i < arreglo.length; i++) {

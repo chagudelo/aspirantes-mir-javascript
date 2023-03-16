@@ -1,4 +1,5 @@
 function sum(arreglo) {
+  if (!arreglo.length) return 0;
   let resultado = 0;
 
   for (let i = 0; i < arreglo.length; i++) {
